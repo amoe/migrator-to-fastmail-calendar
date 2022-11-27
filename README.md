@@ -29,7 +29,8 @@ Google provides a `credentials.json` you can download.
 Running `export_gcal.py` will create a file `out.json` which is a
 reasonably-faithful copy of the main Google calendar for the account.
 
-Having done this, you run `write_to_fastmail.py` to
+Having done this, you run `write_to_fastmail.py` to map and write the events
+into your Fastmail calendar.
 
 Note that as of late 2022 the Google CalDAV interface that uses the Python
 `caldav` library does NOT work.
