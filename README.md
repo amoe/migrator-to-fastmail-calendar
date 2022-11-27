@@ -15,3 +15,9 @@ Google provides a `credentials.json` you can download.
 
 Running `export_gcal.py` will create a file `out.json` which is a
 reasonably-faithful copy of the main Google calendar for the account.
+
+Note that as of late 2022 the Google CalDAV interface that uses the Python
+`caldav` library does NOT work.
+
+You can use `clear_calendar.py` to delete all items from the calendar if
+something goes wrong with the migration.
