@@ -21,3 +21,6 @@ Note that as of late 2022 the Google CalDAV interface that uses the Python
 
 You can use `clear_calendar.py` to delete all items from the calendar if
 something goes wrong with the migration.
+
+Likewise, `list_calendar.py` can be used as a debugging tool to ensure that iCal
+events are getting created properly within Fastmail.
