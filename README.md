@@ -7,10 +7,13 @@ Notably this preserves the **colour** of the individual calendar events which is
 useful if you've colour-coded them in the past.  Fastmail's default migration
 does not do this.
 
+These are quite messy scripts that were written for a one-off process,
+so... bear that in mind.
+
 ## Details
 
-You need `caldav` 0.10.0 (older versions won't work!)
-You need `google-api-python-client` 2.65.0, `google-auth-httplib2` 0.1.0,
+* You need `caldav` 0.10.0 (older versions won't work!)
+* You need `google-api-python-client` 2.65.0, `google-auth-httplib2` 0.1.0,
 `google-auth-oauthlib` 0.7.1.
 
 Use `FASTMAIL_USERNAME` and `FASTMAIL_PASSWORD` in the environment to login to
